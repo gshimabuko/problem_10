@@ -1,12 +1,26 @@
-# cryptopals1_1
+# Problem 1 
 /********************************************************************************
  * @author  Guilherme Shimabuko - Shima's Digital Hardware
  *
- * @brief   Repository for the first challenge of the first set of the cryptopals 
- *          challenge (https://cryptopals.com/).
+ * @brief   Repository for the second technical challenge of a problem set for a 
+ * C++ Software Engineer position at <confidential>
+ *          
  *
- * @details This project consists of a C++ code designed to convert a Hex String
- *          into a base 64 String.
+ * @details This project consists of a C++ program designed to reverse a string 
+ * without using predefined functions or temporary variables/buffers.
+ *  
+ * The src directory contains the files stringSwap.cpp and test.cpp.
+ * The first file implements the strSwap function, which calculates the string's
+ * length using a while loop.
+ * The test.cpp file includes a simple test of the function where a hard-coded 
+ * string is used and its reverse is printed on the screen.
+ *
+ * The includes directory has a header file for the strSwap function.
+ *
+ * The obj file is where the temporary files from the compilation are written. 
+ *
+ * A makefile is included to compile the project. To compile, simply run the 
+ * command "make" on an environment with the g++ compiler. Once compiled, the file * test.out is generated. Running out provides the functions' output.
  *
  * @copyright Copyright (c) 2021 Shima's Digital Hardware
  *
